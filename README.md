@@ -9,9 +9,13 @@ Installation Guides:
 
 # terminal / command Prompt - commands:
 - cd <folder name>: enters the folder
-- cd .. : goes back to previoys foolder
+- cd .. : goes back to previous foolder
 - mkdir <folder name> : creates the folder with the folder name you typed in
 - rm -r <folder name> : deletes a folder / files to the <folder name>
  
 # git comands:
   - git clone <https link of your repository> : clones and connects your device to github
+  
+  1) git add . : it adds all the files in your current folder
+  2) git commit -m "___" : adds a message inside yourself the new things you did
+  3) git push : push everything above github
