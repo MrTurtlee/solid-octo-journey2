@@ -9,7 +9,7 @@ Installation Guides:
 
 # terminal / command Prompt - commands:
 - cd <folder name>: enters the folder
-- cd .. : goes back to previous foolder
+- cd .. : goes back to previous folder
 - mkdir <folder name> : creates the folder with the folder name you typed in
 - rm -r <folder name> : deletes a folder / files to the <folder name>
  
