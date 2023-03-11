@@ -1,11 +1,11 @@
-# it is printinfg the math calculation
+# it is printing the math calculation
 print (2+2)
 
 # it prints everything in " "
 print("2+2")
 
 # " " = string
-# string is a bunch of characters that aren't supposed to be calculated
+# string is a bunch of characters that cannot be calculated numerically
 
 # example of interger and sting not adding
 # print(1 + "1")
