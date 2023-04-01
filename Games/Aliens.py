@@ -27,7 +27,7 @@ while guess != password:
     # GIve clue if there are more than 200 aliens
     # alternate condition: aliens == 256
     if aliens > 200 and aliens < 60000:
-        option = input("Choose a clue you want: A, B, or C")
+        option = input("Choose a clue you want: A, B, or C".upper())
         if option == "A":
             print("Weird looking thing")
         elif option == "B":
