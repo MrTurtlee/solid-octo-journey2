@@ -14,7 +14,7 @@ spacelist[0] = "planet zarg"
 del spacelist[0]
 
 # add item to end of list
-spacelist.append()
+spacelist.append("moon")
 
 # print modified spacelist
 for item in spacelist:
