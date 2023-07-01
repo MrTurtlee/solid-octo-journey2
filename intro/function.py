@@ -14,7 +14,7 @@ printing_hello()
 # function above
 
 # This function is a return function
-def retirn_value (input1):
+def return_value (input1):
     # where input1 is an int
     input1 = input1 * 10
     return input1
