@@ -16,9 +16,6 @@ def return_value (input1):
     input1 = input1 * 10
     return input1
 
-user_input = int(input("Give number"))
-calculate_result = return_value(user_input)
-
 # new coding terms:
 # - function
 # - perameters => represent the temporary variables within
