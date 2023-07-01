@@ -5,6 +5,7 @@
 def printing_hello ():
     print ("hello")
 
+# need to call the name of the function to run it
 printing_hello()
 
 # ne coding terms:
