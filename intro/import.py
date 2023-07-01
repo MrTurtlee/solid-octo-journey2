@@ -4,8 +4,11 @@
 # import [filename]
 # import functions
 
+# to run functions in a file you can do either:
+function.return_value(1)
+# or just directly call the function name
+return_value(1)
+
 # to simprt a specific function from a specific file, do:
 # from [filename] import [function name]
-from function import printing_hello
-
-printing_hello()
+# from function import printing_hello
