@@ -4,5 +4,5 @@
 # only divisible by itself and 1
 
 
-if (num % 5 == 0):
+
     
