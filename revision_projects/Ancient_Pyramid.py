@@ -53,6 +53,11 @@ while player_choice != "exit":
             print("YOU LOSE")
         if player_choice == "boulder":
             print("You do a full 360 and turn around to face the giant boulder")
-            print("The boulder effortlessly squishes you")
+            print("The boulder effortlessly rolls over you")
             print("ARE YOU AN IDIOT???")
+            print("YOU LOSE")
+        if player_choice == "right":
+            print("You turn right at the T intersection to find another door")
+            print("You look behind you to see that the boulder is blocking your way from going back")
+            print("with no where else to go you decide to go though the door in front of you")
 print("Run the game again to play again")  
