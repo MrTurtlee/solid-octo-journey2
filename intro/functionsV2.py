@@ -6,33 +6,29 @@
 # print_sentance = function name
 # () = parameters
 
+# first tu/ype
 def print_sentance():
     print("hello world")
 
 print_sentance()
 
+# second type
 def print_parameters(param1, param2):
     print(param1)
     print(param2)
 
 print_parameters("hello", "world")
 
-# the parameters are temporary variables that are used only in 
-# the function
+# third type
+def return_value():
+    random_num = 1
+    return random_num
+one = return_value
+print(one)
 
+# global variables, temporary variables
+# global variables are declared outside and on top of your file
+# and can be used everywhere in the file
 
-# usage of global variable:
-def print_bananans():
-    print(num_bananas)
-
-num_bananas = 2
-
-print_bananans()
-
-def multiply_bananas():
-    # update the variable to 3 times the original num_bananas
-    num_bananas = 3*num_bananas
-    print_bananans()
-
-
-
+# temporary variables are declared inside a function
+# and can only be used in that function
