@@ -1,13 +1,8 @@
-
-
-
-
-
 def sum_list(num_list):
     total = 0
     for number in num_list:
-        total = total + number    
-    
+        total = total + number 
+
     return total
 
 def multiply_list(num_list):
@@ -17,9 +12,14 @@ def multiply_list(num_list):
 
     return total
 
-def find_highest_number(num_list):
+def add_list(num_list):
+    total = 0
+    for number in num_list:
+        total = total + number
+    final_total = total + 20 + 15 + 7
+    total = total + 0 + 15 + 7
 
-    i = 0
+    return final_total
     find_highest_number = 0
     while index < 7:
         if highest_number <  num_list[index]:
@@ -44,6 +44,7 @@ def main():
     product = multiply_list(num_list)
     print("The highest number is", product)
 
+    # dont't use inbuilt functioons for these tasks
     # Medium: funtion to find the lowest number in the list
 
     # Medium: function to print every 2nd number in the list
@@ -55,5 +56,10 @@ def main():
 
     # Hard: function to add every number by 1, then multiply it to total
 
+    # revision:
+    # make a new function where you add all of the numbers in the list
+    # with these numbers too: 20, 15, 7
+    revision_total = (num_list)
+    print("The revision total is", revision_total)
 
 main()
