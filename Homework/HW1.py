@@ -1,5 +1,5 @@
 # Choose a mathmatical equation / formular and code it so that it gives a
-#result
+# result
 
 # for eg:
     # You can choose a pythagoras theorem, which gets 2 numbers from
