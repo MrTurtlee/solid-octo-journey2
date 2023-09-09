@@ -34,3 +34,9 @@ elif user_input == "som":
 
 # 7) Make 2 list with 4 numbers in each and print the 
 #    multipliacation of every item combination between the 2 lists
+#     for eg:
+#           a = [1,2,3], b = [4,5,6]
+#           1*4, 1*5, 1*6, 2*4, 2*5, 2*6, ...
+
+
+
