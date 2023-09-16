@@ -49,7 +49,7 @@ while player_choice != "exit":
             print("You look behind you to see the giant boulder blocking your way")
             print("With no other choice you open the door in front of you")
             print("You open up the door to find a room with a 23 metre tall dragon oni with a spiked club")
-            print("In one swift swing your head was perfectly blown off")
+            print("In one swift swing of his club your head was perfectly blown off")
             print("YOU LOSE")
         if player_choice == "boulder":
             print("You do a full 360 and turn around to face the giant boulder")
