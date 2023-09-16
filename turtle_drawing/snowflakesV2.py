@@ -31,7 +31,7 @@ def snowflake(num_arms, arm_length, v_length, num_v):
 
 def main():
     shape("turtle")
-    speed(500)
+    speed(100)
     pencolor("white")
     pensize(4)
     Screen().bgcolor("turquoise")
