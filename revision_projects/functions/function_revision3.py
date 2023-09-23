@@ -5,4 +5,6 @@ def calculator(a):
 
 def main():
     a = 5
+    calculator(a)
 
+main()
