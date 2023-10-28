@@ -12,7 +12,10 @@ import random
 
 
 def coin_function(coin):
-    print(coin)
+    if coin == 1:
+        print("heads")
+    else:
+        print("tails")
 
 def dice_function(dice):
     print(dice)
@@ -24,10 +27,10 @@ def main():
     print('would you like to flip a coin or roll a dice?')
     print('type 1 for coin and 2 for dice')
     player_choice = input()
+    
     if player_choice == '1':
-        if coin == 1:
-            print("heads")
-        else:
-            print("tails")
+        coin_function(coin)
     elif player_choice == '2':
         dice_function(dice)
+
+main()
