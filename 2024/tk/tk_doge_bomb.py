@@ -20,8 +20,8 @@ def on_click(event):
 
     square = event.widget
     row = int(square.grid_info()["row"])
-    column = int(square.grid_info()[column])
-    current_text = square.cdget("text")
+    column = int(square.grid_info()["column"])
+    current_text = square.cget("text")
 
     # Checking Game Over
     if game_over == False:
@@ -55,13 +55,13 @@ def on_click(event):
             # if cell is not at the very top or at left
             
             if row > 0 and column > 0:
-                # check to left corner
-                if bombfield[row - 1][column + 1] == 1:
+                # check top left corner
+                if bombfield[row - 1][column - 1] == 1:
                     total_bomb = total_bomb + 1
             
             if row < 9 and column > 0:
                 # check bottom left
-                if bombfield[row - 1][column - 1] == 1:
+                if bombfield[row +1][column - 1] == 1:
                     total_bomb = total_bomb + 1
             
             if row > 0 and column < 9:
@@ -70,9 +70,22 @@ def on_click(event):
                     total_bomb = total_bomb + 1
             
             if row > 9 and column < 9:
-                # check bottom left
+                # check bottom right
                 if bombfield[row + 1][column + 1] == 1:
                     total_bomb = total_bomb + 1
+
+           
+            # display total amount of bombs to the cell
+            square.config(text = " " + str(total_bomb) + " ")
+
+            score = score + 1
+            squares_to_clear = squares_to_clear - 1
+
+            if squares_to_clear == 0:
+                game_over = True
+                print("Well done! Great job for completing the bombfield game!")
+                print("Your score was:", score)
+
 
 # Main Functions
 def create_bombfield(bombfield):
