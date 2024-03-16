@@ -67,7 +67,10 @@ def ball_move():
     # move our ball
     canvas.move(ball, ball_x_speed, ball_y_speed)
 
-        
+def chaeck_game_over():
+    (ball_left, ball_top, ball_right, ball_bottom) = canvas.coords(ball)
+    if ball_top > 500:
+        play_again = tk.Messagebox.askyesno(message = "Do you want to play again?")
 
 windowOpen = True
 def main_loop():
