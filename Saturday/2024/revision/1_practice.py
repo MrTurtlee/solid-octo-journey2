@@ -11,10 +11,9 @@ for i in example_list:
 # Make an algorithm which prints the indices of every odd number in the example_list
 
 i = 0
-while i < 8:
-    if example_list[i] % 2 != 0:
+while i < len(example_list):
+    if example_list[i] % 2 == 0:
         print(i)
-    i = i + 1
         
 
 # Exercise 3:
@@ -22,9 +21,10 @@ while i < 8:
 # i.e.:
 #   1x1, 1x4, 1x9, ..., 1x11, 4x1, 4x4, 4x9, ..., 4x11, 9x1, 9x4, ... 9x11, ... 11x11
  
-for j in range(1, 13):
-    for i in range (1,13):
-        print(j * i)
+for i in example_list:
+    for j in example_list:
+        print(i, 'x', j)
+        
 
 # Clue Files:
 #   if you have no idea how to do this, we have done something similar in timestables.py
