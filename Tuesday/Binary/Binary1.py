@@ -16,7 +16,7 @@ if user_input == "add":
         total = i + total
     print(total)
 
-if user_input == "multiplay":
+elif user_input == "multiply":
     for j in sortedList:
         total = j * total
     print(total)
