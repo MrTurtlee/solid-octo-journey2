@@ -21,7 +21,7 @@ def vshape():
 
 
 def spike(v, length):
-    # makea spike
+    # make a spike
     for i in range(0,v):
         forward(length)
         vshape()
